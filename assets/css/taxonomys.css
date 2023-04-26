@@ -1,0 +1,124 @@
+.desc_tax {
+  margin: 0 auto 30px;
+  text-align: center;
+  display: grid;
+  max-width: 80ch;
+}
+.bloco-tax img {
+  display: block;
+  max-width: 800px;
+  margin: 20px auto;
+  width: 100%;
+}
+.bloco-tax {
+  padding: 60px 0;
+  background: #fff;
+}
+.bloco-tax h2,
+.bloco-tax h3,
+.bloco-tax h4,
+.bloco-tax h5,
+.bloco-tax h6 {
+  margin-bottom: 20px;
+}
+.bloco-tax p,
+.desc_tax div,
+.bloco-tax ul {
+  margin-bottom: 14px !important;
+}
+.bloco-tax ul {
+  margin-top: 12px;
+}
+.bloco-tax li {
+  list-style: disc;
+  margin-bottom: 8px;
+  margin-left: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.bairros_todos {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bairros_todos li {
+  height: 200px;
+  border-radius: 3px;
+  background: #eee;
+  overflow: hidden;
+  flex: 1 1 300px;
+}
+.bairros_todos a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+.bairros_todos a:hover img {
+  transform: scale(1.1);
+  filter: blur(4px);
+}
+.bairros_todos a:hover h3 {
+  background: #ff9123;
+}
+.bairros_todos h3 {
+  position: relative;
+  padding: 3px;
+  z-index: 10;
+  text-align: center;
+  transition: all 0.7s;
+  border-radius: 3px;
+  background: #ff91239e;
+}
+.bairros_todos li img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.8s;
+  object-fit: cover;
+  position: absolute;
+}
+.pagination {
+  margin-top: 40px;
+}
+.page-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.page-numbers li a,
+.page-numbers li span {
+  display: flex;
+  padding: 5px;
+  font-weight: 500;
+  min-width: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ff9123;
+  height: 30px;
+}
+.page-numbers li span {
+  background: #ff91239e;
+}
+.bloco-tax a {
+  color: blue;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.tax_lanc {
+  padding: 60px 0;
+}
+.cat_asse .titulo {
+  text-align: center !important;
+}
+.cat_asse {
+  padding: 60px 0;
+}
